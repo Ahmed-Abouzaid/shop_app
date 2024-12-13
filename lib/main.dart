@@ -1,8 +1,10 @@
 import 'package:flutter/material.dart';
+import 'package:shop/controller/home_controller.dart';
 import 'package:shop/pages/home_page.dart';
 import 'package:get/get.dart';
 
 void main() {
+  Get.put(HomeController());
   runApp(const MyApp());
 }
 
