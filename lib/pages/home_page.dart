@@ -19,11 +19,8 @@ class HomePage extends StatelessWidget {
             return ListTile(
               title: const Text('item title'),
               subtitle: const Text('Price: 100'),
-              trailing: IconButton(
-                  onPressed: () {
-                    ctrl.testMethod();
-                  },
-                  icon: const Icon(Icons.delete)),
+              trailing:
+                  IconButton(onPressed: () {}, icon: const Icon(Icons.delete)),
             );
           },
         ),
