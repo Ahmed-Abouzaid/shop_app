@@ -43,4 +43,11 @@ class HomeController extends GetxController {
       Get.snackbar('Error', e.toString(), colorText: Colors.red);
     }
   }
+
+  setValuesClear() {
+    productNameCtrl.clear();
+    productDescriptionCtrl.clear();
+    productImgCtrl.clear();
+    productPriceCtrl.clear();
+  }
 }
